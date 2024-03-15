@@ -10,6 +10,12 @@ BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/input
 # google_battery service
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
 
+# flipendo
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/flipendo
+
+# turbo adapter
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/turbo_adapter
+
 # sepolicy that are shared among devices using whitechapel
 BOARD_SEPOLICY_DIRS += device/google/gs201/sepolicy/whitechapel_pro
 
