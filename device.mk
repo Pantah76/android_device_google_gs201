@@ -377,6 +377,10 @@ PRODUCT_PACKAGES += \
 	chre \
 	preloaded_nanoapps.json
 
+# Face unlock
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.biometrics.face.xml
+
 # Filesystem management tools
 PRODUCT_PACKAGES += \
 	linker.vendor_ramdisk \
