@@ -45,3 +45,5 @@ PRODUCT_PACKAGES += \
 
 # Touch
 include hardware/google/pixel/touch/device.mk
+
+TARGET_FACE_UNLOCK_SUPPORTED := false
