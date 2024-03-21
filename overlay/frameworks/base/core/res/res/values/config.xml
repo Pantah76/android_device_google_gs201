@@ -287,4 +287,7 @@
 
     <!-- Enable variable refresh rate when typing. -->
     <bool name="config_variableRefreshRateTypingSupported">false</bool>
+
+    <!-- Exempt ImsService from privacy (location) indicators -->
+    <string name="config_systemTelephonyPackage" translatable="false">com.shannon.imsservice</string>
 </resources>
